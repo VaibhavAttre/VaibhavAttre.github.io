@@ -84,7 +84,6 @@ h1 {
     border: black 5px solid;
     display: inline-block;
     margin: 10px 20px 30px 40px;
-
 }
 
 /*.em-test {
@@ -97,6 +96,7 @@ h1 {
     border-width: 25px 10px 25px 10px;
     font-size: 30px;
     margin: 20px;
+    position: relative;
 }
 
 .really {
@@ -110,6 +110,28 @@ section>h2 {
     font-size: 1em;
 } 
 
+.C {
+    position: static;
+    top: 1000px;
+    left: 1000px;
+}
+
+.C:hover {
+    transition: 1s;
+    background-color: chartreuse;
+    border-radius: 50%;
+}
+
 #reddit-embed {
-    margin: 20px 0px 20px 10rem;
+    border: lightcoral double 10px;
+}
+
+.mainPara-div {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: solid black 1px;
+    border-width: 10px 10px 10px 10px;
+    position: sticky;
+    top: 20px;
 }
