@@ -1,0 +1,115 @@
+form>input {
+    background-color: cadetblue;
+}
+
+.navigation {
+    text-align: center;
+}
+
+a:hover {
+    color:orange;   
+}
+
+.mainPara:selection {
+    background-color: deeppink;
+}
+.mainPara:nth-of-type(2n) {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+    border: 10px yellowgreen solid;
+    border-radius: 10px 100px / 120px;
+    padding: 50px;
+    margin: 100px;
+}
+
+#buttonID {
+    background-color: aquamarine;
+    width: 3.5%;
+}
+.button {
+    background-color: chocolate;    
+}
+
+.idk input:active {
+    outline: 2px solid deeppink;
+}
+
+.Title {
+    /*height: 100px;
+    width: 100px;
+    background-color: #ffc8dd;
+    border-width: 5px;
+    border-color: #ffafcc;
+    border-style: solid;
+    background: #bde0fe;
+
+    border: solid 4px #ffafcc;*/
+    border: #ffafcc solid 4px;
+    border-radius: 30px;
+    border-left: #1b70bb solid 10px;
+}
+
+.square-after-title {
+    height: 100px;
+    width: 100px;
+    background-color: #bde0fe;
+}
+
+#newsletter {
+    border-radius: 25px;
+}
+
+#newsletter:active {
+    background-color: azure;
+}
+
+.search-youtube-newsletter {
+    border-radius:20em;
+
+}
+
+.search-youtube-newsletter:active {
+    color: gray;
+}
+
+h1 {
+    padding-left: 600px;
+    text-align: center;
+}
+
+.divC {
+    background-color: lightcoral;
+    width: 50px;
+    height: 50px;
+    border: black 5px solid;
+    display: inline-block;
+    margin: 10px 20px 30px 40px;
+
+}
+
+/*.em-test {
+    border: black 10px solid;
+    font-size: 100px;
+}*/
+
+.em-test {
+    border: black solid;
+    border-width: 25px 10px 25px 10px;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.really {
+    display: flex;
+    font-size: 0.7rem;
+}
+
+section>h2 {
+    border-width: 2em;
+    background-color: #1b70bb;
+    font-size: 1em;
+} 
+
+#reddit-embed {
+    margin: 20px 0px 20px 10rem;
+}
